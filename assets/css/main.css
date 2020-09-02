@@ -1930,9 +1930,10 @@ input, select, textarea {
 						content: '';
 						display: block;
 						position: absolute;
-						top: 50%;
+						top: 45%;
 						left: 20px;
 						width: calc(100% - 40px);
+						height: 48%;
 						border-bottom: solid 1px #fff;
 					}
 
@@ -2642,4 +2643,14 @@ input, select, textarea {
 				opacity: 0.5;
 			}
 
+	}
+
+	.skills-img {
+		width: 100px;
+		height: auto;
+	}
+	.skills-text{
+		color: white;
+		height: 45px;
+		box-sizing: border-box;
 	}
