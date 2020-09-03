@@ -2655,8 +2655,22 @@ input, select, textarea {
 		box-sizing: border-box;
 	}
 
+	.proj-title {
+		text-align: center;
+	}
+
 	.proj-prev {
 		width: 100%;
 		object-fit: cover;
-		
+	}
+
+	.project-links {
+		display:flex;
+		justify-content: center;
+	}
+	.project-links > a {
+		margin-left: 10px;
+		margin-right: 10px;
+		text-decoration: none;
+		border: none;
 	}
