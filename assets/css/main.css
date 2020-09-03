@@ -2654,3 +2654,9 @@ input, select, textarea {
 		height: 45px;
 		box-sizing: border-box;
 	}
+
+	.proj-prev {
+		width: 100%;
+		object-fit: cover;
+		
+	}
