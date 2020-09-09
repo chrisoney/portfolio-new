@@ -104,7 +104,7 @@ input, select, textarea {
 			background-size: auto, 100% auto;
 		}
 
-		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
+		/* body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 			-moz-animation: none !important;
 			-webkit-animation: none !important;
 			-ms-animation: none !important;
@@ -113,7 +113,7 @@ input, select, textarea {
 			-webkit-transition: none !important;
 			-ms-transition: none !important;
 			transition: none !important;
-		}
+		} */
 
 	input, textarea, select {
 		font-family: 'Source Sans Pro', sans-serif;
