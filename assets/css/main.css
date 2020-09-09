@@ -2674,3 +2674,30 @@ input, select, textarea {
 		text-decoration: none;
 		border: none;
 	}
+
+	.contact-container {
+		display:flex;
+		justify-content: space-around;
+	}
+
+	.contact-right {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.face-img {
+		height: 300px;
+		border-radius: 50%;
+	}
+
+	.contact-item {
+		font-size: 20px;
+		list-style: none;
+	}
+
+	.contact-label {
+		font-weight: bolder;
+		margin-right: 10px;
+	}
