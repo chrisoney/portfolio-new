@@ -1991,10 +1991,10 @@ input, select, textarea {
 /* Header */
 
 	#header {
-		-moz-transition: opacity 2s ease-in-out;
+		/* -moz-transition: opacity 2s ease-in-out;
 		-webkit-transition: opacity 2s ease-in-out;
 		-ms-transition: opacity 2s ease-in-out;
-		transition: opacity 2s ease-in-out;
+		transition: opacity 2s ease-in-out; */
 		position: relative;
 		color: #fff;
 		text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
