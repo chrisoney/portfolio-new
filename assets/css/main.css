@@ -1846,7 +1846,7 @@ input, select, textarea {
 		}
 
 			.box.style1 .image {
-				display: block;
+				display: flex;
 				position: absolute;
 				top: 0;
 				width: 50%;
@@ -2659,9 +2659,9 @@ input, select, textarea {
 		text-align: center;
 	}
 
+
 	.proj-prev {
-		width: 100%;
-		object-fit: cover;
+		max-width: 100%;
 	}
 
 	.project-links {
@@ -2700,4 +2700,9 @@ input, select, textarea {
 	.contact-label {
 		font-weight: bolder;
 		margin-right: 10px;
+	}
+
+	.preview-container {
+		display: flex;
+		align-items: center;
 	}
