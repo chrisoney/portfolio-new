@@ -776,7 +776,7 @@
 /* Header */
 
 	#header {
-		// @include vendor('transition', 'opacity 2s ease-in-out');
+		@include vendor('transition', 'opacity 2s ease-in-out');
 		position: relative;
 		color: #fff;
 		text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
