@@ -2071,9 +2071,9 @@ input, select, textarea {
 				background: url("images/arrow.svg") no-repeat;
 			}
 
-		body.is-preload #header {
+		/* body.is-preload #header {
 			opacity: 0;
-		}
+		} */
 
 			body.is-preload #header footer {
 				-moz-transform: translateY(1em);
