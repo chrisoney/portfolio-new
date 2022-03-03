@@ -2664,11 +2664,11 @@ input, select, textarea {
 		max-width: 100%;
 	}
 
-	.project-links {
+	.project-links, .frontend-toggle-container {
 		display:flex;
 		justify-content: center;
 	}
-	.project-links > a {
+	.project-links > a, .frontend-toggle-container > p {
 		margin-left: 10px;
 		margin-right: 10px;
 		text-decoration: none;
