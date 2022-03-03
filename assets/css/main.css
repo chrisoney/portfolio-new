@@ -2668,7 +2668,7 @@ input, select, textarea {
 		display:flex;
 		justify-content: center;
 	}
-	.project-links > a, .frontend-toggle-container > p {
+	.project-links > a, .frontend-toggle {
 		margin-left: 10px;
 		margin-right: 10px;
 		text-decoration: none;
@@ -2709,4 +2709,12 @@ input, select, textarea {
 
 	.hidden { 
 		display: none;
+	}
+
+	.frontend-toggle {
+		cursor: pointer;
+	}
+
+	.selected {
+		font-weight: 700;
 	}
