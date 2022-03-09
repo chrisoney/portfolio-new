@@ -1435,3 +1435,15 @@
 		align-items: center;
 		justify-content: center;
 	}
+
+	.frontend-toggle {
+		cursor: pointer;
+		margin-left: 10px;
+		margin-right: 10px;
+		text-decoration: none;
+		border: none;
+	}
+
+	.selected {
+		font-weight: 700;
+	}
